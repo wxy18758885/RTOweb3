@@ -1,0 +1,87 @@
+*{
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    
+    font-weight: 500;
+}
+.top{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:rgb(186, 178, 242);
+}
+.top li{
+    display: inline-block;
+} 
+.top a{
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+    outline-width:10%;
+    outline-style: dashed;
+    outline-color: aliceblue;
+    color: aliceblue;
+}
+  
+
+.top a:hover {
+    box-shadow: #c5e5ed;
+    color: #ff583d;
+    
+}
+.active {
+    color: #ff3de5;
+    background-color: #c5e5ed;
+    background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+.top img{
+    width: 79px;
+    height: 90px;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: -3%;
+
+}
+.cx{
+    margin: 2% 20%;
+}
+
+.zj{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0% 12%;
+}
+
+
+.lx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1c7f3;
+}
+.lx .p1{
+    font-size: 30px;
+}
+.yj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yj i{
+    width: 1397px;
+    height: 1px;
+    border: 1px solid #e2afe8;
+    margin: 63px auto 50px;
+}
+
+.yj p{
+    margin-right: 10px;
+    font-size: 19px;
+    color: #a774a3;
+    padding-left: 118px;
+}
